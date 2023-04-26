@@ -25,7 +25,7 @@ function draw() {
 
     let snakeX = snake[0].x;
     let snakeY = snake[0].y;
-    console.log(snakeX);
+    // console.log(snakeX);
     if (d == "left") snakeX -= scale;
     if (d == "up") snakeY -= scale;
     if (d == "right") snakeX += scale;
